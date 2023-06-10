@@ -523,7 +523,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
-	{ (Il2CppRGCTXDataType)3, 31937 },
+	{ (Il2CppRGCTXDataType)3, 31938 },
 	{ (Il2CppRGCTXDataType)2, 107 },
 };
 extern const CustomAttributesCacheGenerator g_Oculus_LipSync_AttributeGenerators[];

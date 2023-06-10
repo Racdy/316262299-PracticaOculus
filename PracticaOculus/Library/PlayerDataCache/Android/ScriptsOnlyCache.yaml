@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Oculus.Spatializer.dll:
+    - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -26,6 +28,14 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -71,31 +81,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1922}
+      Script: {instanceID: 1958}
     - Class: 114
-      Script: {instanceID: 2084}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 2122}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 3578}
+      Script: {instanceID: 3694}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 3914}
     - Class: 114
-      Script: {instanceID: 3814}
+      Script: {instanceID: 3936}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 4898}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5924}
     - Class: 114
-      Script: {instanceID: 6788}
+      Script: {instanceID: 5972}
     - Class: 114
-      Script: {instanceID: 7180}
+      Script: {instanceID: 7014}
+    - Class: 114
+      Script: {instanceID: 7420}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -189,6 +201,12 @@ ScriptsOnlyBuild:
     className: DebugGizmos
   - hash:
       serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
       Hash: 51ba2ca0b5dc3a522ec6da137dbf4300
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -199,6 +217,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartCrashlytics
+  - hash:
+      serializedVersion: 2
+      Hash: 7146a680cd6a42f884a88a5305c13835
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
   - hash:
       serializedVersion: 2
       Hash: 9c79ba0bcfec351dfb031d92c652a9a9
@@ -1209,6 +1233,12 @@ ScriptsOnlyBuild:
     className: OVRGrabbable
   - hash:
       serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1237,6 +1267,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.DistanceReticles
     className: DistantInteractionPolylineVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
   - hash:
       serializedVersion: 2
       Hash: 7bb2a4443ec71296a0b6d450ab8f6b68
@@ -1581,12 +1617,6 @@ ScriptsOnlyBuild:
     className: PointableCanvasUnityEventWrapper
   - hash:
       serializedVersion: 2
-      Hash: 492e4075bfded9fb3f0d520048f29f83
-    assemblyName: Oculus.VR.dll
-    namespaceName: UnityEngine.EventSystems
-    className: OVRInputModule
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Locomotion
@@ -1597,6 +1627,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 492e4075bfded9fb3f0d520048f29f83
+    assemblyName: Oculus.VR.dll
+    namespaceName: UnityEngine.EventSystems
+    className: OVRInputModule
   - hash:
       serializedVersion: 2
       Hash: 63a46f57d97b4fb9f8823bdcc6212f65
@@ -1833,16 +1869,16 @@ ScriptsOnlyBuild:
     className: FadeTextAfterActive
   - hash:
       serializedVersion: 2
-      Hash: d0cdc393a41edf1f83275da05cc88be3
-    assemblyName: Oculus.Platform.dll
-    namespaceName: 
-    className: ReportingCallbackSample
-  - hash:
-      serializedVersion: 2
       Hash: df6d951b6ecf8a67b68b89b4c07d970b
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRVignette
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdc393a41edf1f83275da05cc88be3
+    assemblyName: Oculus.Platform.dll
+    namespaceName: 
+    className: ReportingCallbackSample
   - hash:
       serializedVersion: 2
       Hash: b91c8e6d466992f4dca9529697a7a59e
@@ -1959,6 +1995,12 @@ ScriptsOnlyBuild:
     className: OVRPhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
       Hash: c2978e67141ce287f7c1511a496975a2
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection.Debug
@@ -2001,6 +2043,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
       Hash: c8cc6df62a2c484a6a5eae80d5f7d16b
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -2035,6 +2083,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection
     className: JointDeltaProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusRestarter
   - hash:
       serializedVersion: 2
       Hash: 5f7fb8de4b6ed3eb26a5a41d5c35f725
@@ -2079,16 +2133,16 @@ ScriptsOnlyBuild:
     className: PoseFromBody
   - hash:
       serializedVersion: 2
-      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
   - hash:
       serializedVersion: 2
       Hash: e7645bba04de2e10f71cfbde8616ee66
@@ -2205,16 +2259,16 @@ ScriptsOnlyBuild:
     className: OVRTrackedKeyboardHands
   - hash:
       serializedVersion: 2
-      Hash: 192a7baf7a11e643ce46d934f1abcd59
-    assemblyName: Oculus.Interaction.OVR.Samples.dll
-    namespaceName: Oculus.Interaction
-    className: PressureBreakable
-  - hash:
-      serializedVersion: 2
       Hash: 49ece22a7f0af75470d689a6e2e044be
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SPPquad
+  - hash:
+      serializedVersion: 2
+      Hash: 192a7baf7a11e643ce46d934f1abcd59
+    assemblyName: Oculus.Interaction.OVR.Samples.dll
+    namespaceName: Oculus.Interaction
+    className: PressureBreakable
   - hash:
       serializedVersion: 2
       Hash: f95125928bfdbafd3a197204e64e3ea9
@@ -3129,6 +3183,18 @@ ScriptsOnlyBuild:
     className: MoveTowardsTargetProvider
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
       Hash: 7f64f9d8b13a35e042bfe6440d8412b4
     assemblyName: Meta.WitAi.dll
     namespaceName: Meta.WitAi.Data.Entities
@@ -3603,6 +3669,12 @@ ScriptsOnlyBuild:
     className: TeleportOrientationHandler360
   - hash:
       serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -3927,64 +3999,10 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
-      Hash: 24c74cc0d527a06113f2b967042769f0
-    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
-    namespaceName: UnityEditor.XR.LegacyInputHelpers
-    className: CameraOffset
-  - hash:
-      serializedVersion: 2
-      Hash: d251bf88db6c95a6b1aa0b69298da9ef
-    assemblyName: UnityEngine.SpatialTracking.dll
-    namespaceName: UnityEngine.SpatialTracking
-    className: TrackedPoseDriver
-  - hash:
-      serializedVersion: 2
-      Hash: 04e4a8b0447477cc4e933d9e5311188f
-    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
-    namespaceName: UnityEngine.XR.LegacyInputHelpers
-    className: ArmModel
-  - hash:
-      serializedVersion: 2
-      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
-    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
-    namespaceName: UnityEngine.XR.LegacyInputHelpers
-    className: TransitionArmModel
-  - hash:
-      serializedVersion: 2
-      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRGeneralSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 8ab9295d94483c961936d82d233d3df2
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRManagerSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 893dbdbfe611d62e230a686ea89f1efd
-    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
-    namespaceName: UnityEngine.XR.LegacyInputHelpers
-    className: SwingArmModel
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusRestarter
-  - hash:
-      serializedVersion: 2
-      Hash: 7146a680cd6a42f884a88a5305c13835
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusSettings
+      Hash: db44f2e76edbef6691709ad4e60bc0bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemy
   platform: 13
   scenePathNames:
   - Assets/Oculus/VR/Scenes/ControllerModels.unity

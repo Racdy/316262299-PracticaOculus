@@ -70,6 +70,8 @@ struct DelegateData_t17DD30660E330C49381DAA99F934BE75CB11F288;
 struct IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
+// UnityEngine.AI.NavMeshAgent
+struct NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B;
 // UnityEngine.AI.NavMeshPath
 struct NavMeshPath_tAFA468828CBAA6B9A45D707586D9384784AADF2C;
 // System.String
@@ -580,6 +582,43 @@ public:
 };
 
 
+// UnityEngine.Object
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
+{
+public:
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+
+public:
+	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A, ___m_CachedPtr_0)); }
+	inline intptr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
+	inline intptr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
+	inline void set_m_CachedPtr_0(intptr_t value)
+	{
+		___m_CachedPtr_0 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// UnityEngine.Component
+struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+{
+public:
+
+public:
+};
+
+
 // System.MulticastDelegate
 struct MulticastDelegate_t  : public Delegate_t
 {
@@ -618,8 +657,26 @@ public:
 };
 
 
+// UnityEngine.Behaviour
+struct Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.AI.NavMesh/OnNavMeshPreUpdate
 struct OnNavMeshPreUpdate_t5E34F761F39A1F6B898F0E729B36C0782B92D572  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// UnityEngine.AI.NavMeshAgent
+struct NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B  : public Behaviour_t1A3DDDCF73B4627928FBFE02ED52B7251777DBD9
 {
 public:
 
@@ -932,6 +989,34 @@ public:
 // UnityEngine.AI.NavMeshPathStatus
 
 
+// UnityEngine.Object
+
+struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_StaticFields
+{
+public:
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+
+public:
+	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
+	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
+	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
+	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
+	{
+		___OffsetOfInstanceIDInCPlusPlusObject_1 = value;
+	}
+};
+
+
+// UnityEngine.Object
+
+
+// UnityEngine.Component
+
+
+// UnityEngine.Component
+
+
 // System.MulticastDelegate
 
 
@@ -944,10 +1029,22 @@ public:
 // System.AsyncCallback
 
 
+// UnityEngine.Behaviour
+
+
+// UnityEngine.Behaviour
+
+
 // UnityEngine.AI.NavMesh/OnNavMeshPreUpdate
 
 
 // UnityEngine.AI.NavMesh/OnNavMeshPreUpdate
+
+
+// UnityEngine.AI.NavMeshAgent
+
+
+// UnityEngine.AI.NavMeshAgent
 
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -1039,6 +1136,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavMesh_CalculatePathInternal_m512971031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavMesh_CalculatePathInternal_Injected_m9A7D0063302EECB713D55F0CEFB8DE8073A6FE52 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___sourcePosition0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___targetPosition1, int32_t ___areaMask2, NavMeshPath_tAFA468828CBAA6B9A45D707586D9384784AADF2C * ___path3, const RuntimeMethod* method);
 // System.Boolean UnityEngine.AI.NavMesh::SamplePosition_Injected(UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavMesh_SamplePosition_Injected_m1BFDD02762E20B8E4BA78BFFDA58541E96DB031A (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___sourcePosition0, NavMeshHit_t62B242C636F3B036AE65C266EC79A2B62330FF9D * ___hit1, float ___maxDistance2, int32_t ___areaMask3, const RuntimeMethod* method);
+// System.Void UnityEngine.AI.NavMeshAgent::set_destination_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A (NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.AI.NavMeshHit::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  NavMeshHit_get_position_m66845935ED76B2480F72EE6628EFD9D6BF35B39A (NavMeshHit_t62B242C636F3B036AE65C266EC79A2B62330FF9D * __this, const RuntimeMethod* method);
 // System.Single UnityEngine.AI.NavMeshHit::get_distance()
@@ -1193,6 +1292,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NavMesh_SamplePosition_Injected_m1BFDD02
 	_il2cpp_icall_func = (NavMesh_SamplePosition_Injected_m1BFDD02762E20B8E4BA78BFFDA58541E96DB031A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AI.NavMesh::SamplePosition_Injected(UnityEngine.Vector3&,UnityEngine.AI.NavMeshHit&,System.Single,System.Int32)");
 	bool icallRetVal = _il2cpp_icall_func(___sourcePosition0, ___hit1, ___maxDistance2, ___areaMask3);
 	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AI.NavMeshAgent::set_destination(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshAgent_set_destination_m0EC1C668AD85AC1B26AABF54337D7D0849F760E7 (NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method)
+{
+	{
+		NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A(__this, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AI.NavMeshAgent::set_destination_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A (NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A_ftn) (NavMeshAgent_tB9746B6C38013341DB63973CA7ED657494EFB41B *, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *);
+	static NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AI.NavMeshAgent::set_destination_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

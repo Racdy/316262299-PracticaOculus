@@ -3090,11 +3090,11 @@ static const Il2CppRGCTXDefinition s_rgctxValues[35] =
 	{ (Il2CppRGCTXDataType)3, 3328 },
 	{ (Il2CppRGCTXDataType)2, 1558 },
 	{ (Il2CppRGCTXDataType)3, 3327 },
-	{ (Il2CppRGCTXDataType)3, 32044 },
-	{ (Il2CppRGCTXDataType)3, 32406 },
+	{ (Il2CppRGCTXDataType)3, 32045 },
+	{ (Il2CppRGCTXDataType)3, 32407 },
 	{ (Il2CppRGCTXDataType)2, 3532 },
 	{ (Il2CppRGCTXDataType)3, 17365 },
-	{ (Il2CppRGCTXDataType)3, 32024 },
+	{ (Il2CppRGCTXDataType)3, 32025 },
 	{ (Il2CppRGCTXDataType)3, 17366 },
 	{ (Il2CppRGCTXDataType)3, 17367 },
 	{ (Il2CppRGCTXDataType)3, 25178 },
@@ -3113,7 +3113,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[35] =
 	{ (Il2CppRGCTXDataType)3, 25181 },
 	{ (Il2CppRGCTXDataType)2, 4032 },
 	{ (Il2CppRGCTXDataType)3, 21057 },
-	{ (Il2CppRGCTXDataType)3, 32098 },
+	{ (Il2CppRGCTXDataType)3, 32099 },
 	{ (Il2CppRGCTXDataType)2, 589 },
 };
 extern const CustomAttributesCacheGenerator g_Meta_WitAi_AttributeGenerators[];
