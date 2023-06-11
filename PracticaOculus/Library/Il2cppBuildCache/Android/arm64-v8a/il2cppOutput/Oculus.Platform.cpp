@@ -52974,11 +52974,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataEntry_printOutputLine_m2100ECBEFBBEB
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_3 = __this->get_dataOutput_4();
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(72 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
 		String_t* L_5;
 		L_5 = String_Concat_m5D784E6CEEBE99ED8749AA4B9491D926273FD749(_stringLiteral4E1C61AD64824F0F49388BB9A0A66BA660066922, L_1, L_2, L_4, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_5);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_5);
 		// }
 		return;
 	}
@@ -57221,7 +57221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GroupPresenceSample_UpdateDestinationsCo
 		// DestinationsConsole.text = "Add some destinations to the developer dashboard first!";
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_2 = __this->get_DestinationsConsole_9();
 		NullCheck(L_2);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, _stringLiteral9F84DA23C7222C86F7E56CC7651069B0C14A729F);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, _stringLiteral9F84DA23C7222C86F7E56CC7651069B0C14A729F);
 	}
 
 IL_001d:
@@ -57286,7 +57286,7 @@ IL_0058:
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_16 = __this->get_DestinationsConsole_9();
 		String_t* L_17 = V_0;
 		NullCheck(L_16);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, L_17);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, L_17);
 		// }
 		return;
 	}
@@ -57357,7 +57357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GroupPresenceSample_UpdateConsole_m93F00
 		String_t* L_3;
 		L_3 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(_stringLiteralF05C75A8FB27154A88373A3A23F7C8E6246FEA24, L_2, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_3);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_3);
 		// }
 		return;
 	}

@@ -34754,7 +34754,7 @@ IL_0032:
 		String_t* L_17;
 		L_17 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(_stringLiteralF7434B8279DCA94D329425679DF2556EFF58634B, L_16, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_17);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_17);
 		// }
 		return;
 	}
@@ -35887,7 +35887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRVirtualKeyboardSampleWPMPrompt_Update
 		String_t* L_2;
 		L_2 = WritingPrompt_ToRichText_m601E6B93D200B2CBBDC93EA930BC9239CDB938EE(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_2);
 		// }
 		return;
 	}
@@ -36094,7 +36094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRVirtualKeyboardSampleWPMPrompt_CycleW
 		String_t* L_6;
 		L_6 = OVRVirtualKeyboardSampleWPMPrompt_StatToText_mDED0284CF741326DAD39038D16E1E1F4ADDC0181(__this, L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_6);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_6);
 		// if (_activeWritingPrompt.IsComplete)
 		WritingPrompt_tBEA265760F5227ADE9D82FE894798BD872364F67 * L_7 = __this->get__activeWritingPrompt_16();
 		NullCheck(L_7);
@@ -36186,7 +36186,7 @@ IL_00b7:
 		// statsOutput.text = CompletePromptRichText;
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_27 = __this->get_statsOutput_11();
 		NullCheck(L_27);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_27, _stringLiteralBBC14291FE639FBCD1B84828C8401D586A8985FF);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_27, _stringLiteralBBC14291FE639FBCD1B84828C8401D586A8985FF);
 	}
 
 IL_00c7:
@@ -36220,7 +36220,7 @@ IL_00dc:
 IL_00e3:
 	{
 		NullCheck(G_B13_1);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, G_B13_1, G_B13_0);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, G_B13_1, G_B13_0);
 		// _activeWritingPrompt = new WritingPrompt(Sentences[_currentSentenceIndex]);
 		IL2CPP_RUNTIME_CLASS_INIT(OVRVirtualKeyboardSampleWPMPrompt_tB4C7EB8F7AAFC1D8A45B9F2F0900385879C9E559_il2cpp_TypeInfo_var);
 		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_33 = ((OVRVirtualKeyboardSampleWPMPrompt_tB4C7EB8F7AAFC1D8A45B9F2F0900385879C9E559_StaticFields*)il2cpp_codegen_static_fields_for(OVRVirtualKeyboardSampleWPMPrompt_tB4C7EB8F7AAFC1D8A45B9F2F0900385879C9E559_il2cpp_TypeInfo_var))->get_Sentences_14();

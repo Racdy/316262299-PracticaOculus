@@ -648,6 +648,15 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 	Delegate_t_marshaled_com** ___delegates_11;
 };
 
+// UnityEngine.AI.NavMeshData
+struct NavMeshData_t4A718E7F2CF47C3E1190DCAADCA989CBA91BDDF6  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+{
+public:
+
+public:
+};
+
+
 // System.AsyncCallback
 struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA  : public MulticastDelegate_t
 {
@@ -1023,6 +1032,12 @@ public:
 // System.MulticastDelegate
 
 
+// UnityEngine.AI.NavMeshData
+
+
+// UnityEngine.AI.NavMeshData
+
+
 // System.AsyncCallback
 
 
@@ -1318,6 +1333,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMeshAgent_set_destination_Injected_m4
 	_il2cpp_icall_func = (NavMeshAgent_set_destination_Injected_m440F39AC542ABA6D46FCC250DAAA944A88357D4A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AI.NavMeshAgent::set_destination_Injected(UnityEngine.Vector3&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

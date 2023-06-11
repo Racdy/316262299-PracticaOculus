@@ -50042,7 +50042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTrackedKeyboardSampleControls_Update_
 		L_2 = OVRTrackedKeyboard_get_SystemKeyboardInfo_m869B879B0E9BF2BEC7086CBF737D1E00E8999D48_inline(L_1, /*hidden argument*/NULL);
 		String_t* L_3 = L_2.get_Name_0();
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
 		// ConnectedValue.text =
 		//     ((bool)((trackedKeyboard.SystemKeyboardInfo.KeyboardFlags & OVRPlugin.TrackedKeyboardFlags.Connected) > 0))
 		//     .ToString();
@@ -50056,7 +50056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTrackedKeyboardSampleControls_Update_
 		String_t* L_8;
 		L_8 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&V_0), /*hidden argument*/NULL);
 		NullCheck(L_4);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_8);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_8);
 		// StateValue.text = trackedKeyboard.TrackingState.ToString();
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_9 = __this->get_StateValue_8();
 		OVRTrackedKeyboard_t77E603E4F449E728E71F97E0BC1CBE74B491A2D4 * L_10 = __this->get_trackedKeyboard_4();
@@ -50070,7 +50070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTrackedKeyboardSampleControls_Update_
 		L_13 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_12);
 		V_1 = *(int32_t*)UnBox(L_12);
 		NullCheck(L_9);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_13);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_13);
 		// SelectKeyboardValue.text = "Select " + trackedKeyboard.KeyboardQueryFlags.ToString() + " Keyboard";
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_14 = __this->get_SelectKeyboardValue_9();
 		OVRTrackedKeyboard_t77E603E4F449E728E71F97E0BC1CBE74B491A2D4 * L_15 = __this->get_trackedKeyboard_4();
@@ -50086,7 +50086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTrackedKeyboardSampleControls_Update_
 		String_t* L_19;
 		L_19 = String_Concat_mC41740F000A5A48F8D313FB4CEE0E35E207A2632(_stringLiteralE88213E3B57E2BC5969AAF89D5BD032B78F20597, L_18, _stringLiteral1B924F57A2FA9D6884017D74F6953AA95350D526, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_14, L_19);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_14, L_19);
 		// TypeValue.text = trackedKeyboard.KeyboardQueryFlags.ToString();
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_20 = __this->get_TypeValue_10();
 		OVRTrackedKeyboard_t77E603E4F449E728E71F97E0BC1CBE74B491A2D4 * L_21 = __this->get_trackedKeyboard_4();
@@ -50100,7 +50100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRTrackedKeyboardSampleControls_Update_
 		L_24 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_23);
 		V_2 = *(int32_t*)UnBox(L_23);
 		NullCheck(L_20);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_20, L_24);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_20, L_24);
 		// switch (trackedKeyboard.TrackingState)
 		OVRTrackedKeyboard_t77E603E4F449E728E71F97E0BC1CBE74B491A2D4 * L_25 = __this->get_trackedKeyboard_4();
 		NullCheck(L_25);

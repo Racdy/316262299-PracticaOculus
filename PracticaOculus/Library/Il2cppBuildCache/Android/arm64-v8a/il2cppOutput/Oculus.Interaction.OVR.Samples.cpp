@@ -25527,7 +25527,7 @@ IL_001b:
 		TextMeshPro_t4C8C961C0939CD311CCC4F5F306C27C5301BD8E4 * L_2 = __this->get__delayLabel_8();
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
 		NullCheck(L_2);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_2, L_3);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_2, L_3);
 		// }
 		return;
 	}
@@ -28660,7 +28660,7 @@ IL_003f:
 		TextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1 * L_11 = __this->get__countdownText_7();
 		String_t* L_12 = __this->get__poseText_8();
 		NullCheck(L_11);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_11, L_12);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_11, L_12);
 		// }
 		return;
 	}
@@ -28681,7 +28681,7 @@ IL_007a:
 		String_t* L_16;
 		L_16 = Single_ToString_m15F10F2AFF80750906CEFCFB456EBA84F9D2E8D7((float*)L_15, _stringLiteralE853784ABA384B0FD8B74115A71936D0672701A5, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_14, L_16);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_14, L_16);
 	}
 
 IL_0098:
@@ -28831,7 +28831,7 @@ IL_001a:
 		String_t* L_17;
 		L_17 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_16, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_12, L_17);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_12, L_17);
 		// _poseActiveVisuals[i].GetComponentInChildren<ParticleSystemRenderer>().material = _onSelectIcons[i];
 		GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* L_18 = __this->get__poseActiveVisuals_9();
 		int32_t L_19 = V_0;
@@ -31531,7 +31531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerUIControl_UpdateDisplay_m7282939D2A
 		String_t* L_4;
 		L_4 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteral5D702C9A22299C4014D66B2927EC402AB97064E1, L_3, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_4);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_4);
 		// _lessButton.interactable = seconds > 0;
 		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_5 = __this->get__lessButton_8();
 		int32_t L_6 = ___seconds0;
@@ -33082,7 +33082,7 @@ IL_0037:
 		String_t* L_7;
 		L_7 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)L_6, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_5, L_7);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_5, L_7);
 		// WhenTimeStep?.Invoke();
 		HandGrabPoseLiveRecorder_tE85E69EA9B64BDC2E21171D045EC4C9846DA66F6 * L_8 = V_1;
 		NullCheck(L_8);
@@ -33152,7 +33152,7 @@ IL_008a:
 		NullCheck(L_18);
 		TextMeshPro_t4C8C961C0939CD311CCC4F5F306C27C5301BD8E4 * L_19 = L_18->get__delayLabel_8();
 		NullCheck(L_19);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_19, _stringLiteral14FAAC2572EB696BE7E6622F8BF651B7C0B7610C);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_19, _stringLiteral14FAAC2572EB696BE7E6622F8BF651B7C0B7610C);
 		// WhenSnapshot?.Invoke();
 		HandGrabPoseLiveRecorder_tE85E69EA9B64BDC2E21171D045EC4C9846DA66F6 * L_20 = V_1;
 		NullCheck(L_20);
@@ -33184,7 +33184,7 @@ IL_00be:
 		NullCheck(L_23);
 		TextMeshPro_t4C8C961C0939CD311CCC4F5F306C27C5301BD8E4 * L_24 = L_23->get__delayLabel_8();
 		NullCheck(L_24);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_24, _stringLiteral4A153A2081ABF1486D8D4C35F8E726229FD37116);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_24, _stringLiteral4A153A2081ABF1486D8D4C35F8E726229FD37116);
 		// WhenError?.Invoke();
 		HandGrabPoseLiveRecorder_tE85E69EA9B64BDC2E21171D045EC4C9846DA66F6 * L_25 = V_1;
 		NullCheck(L_25);
@@ -33227,7 +33227,7 @@ IL_00f4:
 		TextMeshPro_t4C8C961C0939CD311CCC4F5F306C27C5301BD8E4 * L_31 = L_30->get__delayLabel_8();
 		String_t* L_32 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
 		NullCheck(L_31);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_31, L_32);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_31, L_32);
 		// }
 		return (bool)0;
 	}

@@ -496,6 +496,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC0E02A0440A6BB4475B7E59901C37A6A25E773C8
 IL2CPP_EXTERN_C String_t* _stringLiteralE8963BEA051E9F5E3F02A780ED8AB1AE95782FAF;
 IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m0634F57673D3B1572F66281200F50C1B4AB9C348_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m0D275B7E706ADF19E7ABCC3DFB54122F4635489E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m14AB7CC5959ED8095B98CD52DDA8E457B8196902_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m1AF45075B6CD2A6DF71C7ADD227AB162229B4978_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InternalEnumerator_1_get_Current_m1B6273CE9D1703AB7D5A62F0DE54F024F8C4F98E_RuntimeMethod_var;
@@ -3080,6 +3081,53 @@ public:
 	}
 };
 
+
+// System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>
+struct InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 
+{
+public:
+	// System.Array System.Array/InternalEnumerator`1::array
+	RuntimeArray * ___array_0;
+	// System.Int32 System.Array/InternalEnumerator`1::idx
+	int32_t ___idx_1;
+
+public:
+	inline static int32_t get_offset_of_array_0() { return static_cast<int32_t>(offsetof(InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735, ___array_0)); }
+	inline RuntimeArray * get_array_0() const { return ___array_0; }
+	inline RuntimeArray ** get_address_of_array_0() { return &___array_0; }
+	inline void set_array_0(RuntimeArray * value)
+	{
+		___array_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___array_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_idx_1() { return static_cast<int32_t>(offsetof(InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735, ___idx_1)); }
+	inline int32_t get_idx_1() const { return ___idx_1; }
+	inline int32_t* get_address_of_idx_1() { return &___idx_1; }
+	inline void set_idx_1(int32_t value)
+	{
+		___idx_1 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Array/InternalEnumerator`1
+#ifndef InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_pinvoke_define
+#define InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_pinvoke_define
+struct InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_pinvoke
+{
+	RuntimeArray * ___array_0;
+	int32_t ___idx_1;
+};
+#endif
+// Native definition for COM marshalling of System.Array/InternalEnumerator`1
+#ifndef InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_com_define
+#define InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_com_define
+struct InternalEnumerator_1_t37B1DF66175FF6BD02352E6D77EF8F4504A012D5_marshaled_com
+{
+	RuntimeArray * ___array_0;
+	int32_t ___idx_1;
+};
+#endif
 
 // System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>
 struct InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D 
@@ -8314,6 +8362,64 @@ public:
 	inline void set_m_ExecutionContextBelongsToOuterScope_14(bool value)
 	{
 		___m_ExecutionContextBelongsToOuterScope_14 = value;
+	}
+};
+
+
+// OVR.OpenVR.VRActiveActionSet_t
+struct VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC 
+{
+public:
+	// System.UInt64 OVR.OpenVR.VRActiveActionSet_t::ulActionSet
+	uint64_t ___ulActionSet_0;
+	// System.UInt64 OVR.OpenVR.VRActiveActionSet_t::ulRestrictedToDevice
+	uint64_t ___ulRestrictedToDevice_1;
+	// System.UInt64 OVR.OpenVR.VRActiveActionSet_t::ulSecondaryActionSet
+	uint64_t ___ulSecondaryActionSet_2;
+	// System.UInt32 OVR.OpenVR.VRActiveActionSet_t::unPadding
+	uint32_t ___unPadding_3;
+	// System.Int32 OVR.OpenVR.VRActiveActionSet_t::nPriority
+	int32_t ___nPriority_4;
+
+public:
+	inline static int32_t get_offset_of_ulActionSet_0() { return static_cast<int32_t>(offsetof(VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC, ___ulActionSet_0)); }
+	inline uint64_t get_ulActionSet_0() const { return ___ulActionSet_0; }
+	inline uint64_t* get_address_of_ulActionSet_0() { return &___ulActionSet_0; }
+	inline void set_ulActionSet_0(uint64_t value)
+	{
+		___ulActionSet_0 = value;
+	}
+
+	inline static int32_t get_offset_of_ulRestrictedToDevice_1() { return static_cast<int32_t>(offsetof(VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC, ___ulRestrictedToDevice_1)); }
+	inline uint64_t get_ulRestrictedToDevice_1() const { return ___ulRestrictedToDevice_1; }
+	inline uint64_t* get_address_of_ulRestrictedToDevice_1() { return &___ulRestrictedToDevice_1; }
+	inline void set_ulRestrictedToDevice_1(uint64_t value)
+	{
+		___ulRestrictedToDevice_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ulSecondaryActionSet_2() { return static_cast<int32_t>(offsetof(VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC, ___ulSecondaryActionSet_2)); }
+	inline uint64_t get_ulSecondaryActionSet_2() const { return ___ulSecondaryActionSet_2; }
+	inline uint64_t* get_address_of_ulSecondaryActionSet_2() { return &___ulSecondaryActionSet_2; }
+	inline void set_ulSecondaryActionSet_2(uint64_t value)
+	{
+		___ulSecondaryActionSet_2 = value;
+	}
+
+	inline static int32_t get_offset_of_unPadding_3() { return static_cast<int32_t>(offsetof(VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC, ___unPadding_3)); }
+	inline uint32_t get_unPadding_3() const { return ___unPadding_3; }
+	inline uint32_t* get_address_of_unPadding_3() { return &___unPadding_3; }
+	inline void set_unPadding_3(uint32_t value)
+	{
+		___unPadding_3 = value;
+	}
+
+	inline static int32_t get_offset_of_nPriority_4() { return static_cast<int32_t>(offsetof(VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC, ___nPriority_4)); }
+	inline int32_t get_nPriority_4() const { return ___nPriority_4; }
+	inline int32_t* get_address_of_nPriority_4() { return &___nPriority_4; }
+	inline void set_nPriority_4(int32_t value)
+	{
+		___nPriority_4 = value;
 	}
 };
 
@@ -18300,6 +18406,12 @@ public:
 // OVRTask`1/CallbackWithState`1<System.Object,System.Object>
 
 
+// System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>
+
+
+// System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>
+
+
 // System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>
 
 
@@ -19365,6 +19477,12 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___current_thread_11), (void*)value);
 	}
 };
+
+
+// OVR.OpenVR.VRActiveActionSet_t
+
+
+// OVR.OpenVR.VRActiveActionSet_t
 
 
 // OVR.OpenVR.VRControllerAxis_t
@@ -22389,6 +22507,18 @@ public:
 };
 
 
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::.ctor(System.Array)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, RuntimeArray * ___array0, const RuntimeMethod* method);
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method);
+// System.Boolean System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method);
+// T System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method);
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method);
+// System.Object System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method);
 // System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>::.ctor(System.Array)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_mD4943708446A2BD541DBB5F978A1F1BCCDC4D5AA_gshared (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D * __this, RuntimeArray * ___array0, const RuntimeMethod* method);
 // System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>::Dispose()
@@ -23340,6 +23470,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_mE5653E34CD6370B3327178
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Guid,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m79061C01C6BF490684B011484E28D3FA3A98D3CF_gshared (Enumerator_tB72A18D32AC797055EC54AB2D51E4D924267BDE9 * __this, Dictionary_2_t68FA25B39EC8179DDB6C36003288B86442B82ECB * ___dictionary0, const RuntimeMethod* method);
 
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::.ctor(System.Array)
+inline void InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11 (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, RuntimeArray * ___array0, const RuntimeMethod* method)
+{
+	((  void (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, RuntimeArray *, const RuntimeMethod*))InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11_gshared)(__this, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::Dispose()
+inline void InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1 (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	((  void (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, const RuntimeMethod*))InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1_gshared)(__this, method);
+}
+// System.Int32 System.Array::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_get_Length_m12B3E61F1BF9880AB252640D69269B49665C0A10 (RuntimeArray * __this, const RuntimeMethod* method);
+// System.Boolean System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::MoveNext()
+inline bool InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, const RuntimeMethod*))InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D_gshared)(__this, method);
+}
+// System.Void System.InvalidOperationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * __this, String_t* ___message0, const RuntimeMethod* method);
+// T System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::get_Current()
+inline VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2 (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	return ((  VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, const RuntimeMethod*))InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_gshared)(__this, method);
+}
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.Reset()
+inline void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4 (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	((  void (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4_gshared)(__this, method);
+}
+// System.Object System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.get_Current()
+inline RuntimeObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4 (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject * (*) (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4_gshared)(__this, method);
+}
 // System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>::.ctor(System.Array)
 inline void InternalEnumerator_1__ctor_mD4943708446A2BD541DBB5F978A1F1BCCDC4D5AA (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D * __this, RuntimeArray * ___array0, const RuntimeMethod* method)
 {
@@ -23350,15 +23514,11 @@ inline void InternalEnumerator_1_Dispose_m8C343A4BB41C968C9DCF4359DD82C746DF084B
 {
 	((  void (*) (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D *, const RuntimeMethod*))InternalEnumerator_1_Dispose_m8C343A4BB41C968C9DCF4359DD82C746DF084BA3_gshared)(__this, method);
 }
-// System.Int32 System.Array::get_Length()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_get_Length_m12B3E61F1BF9880AB252640D69269B49665C0A10 (RuntimeArray * __this, const RuntimeMethod* method);
 // System.Boolean System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>::MoveNext()
 inline bool InternalEnumerator_1_MoveNext_m24BE07B5A3B33ED472A32850008049DF0026E946 (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D * __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D *, const RuntimeMethod*))InternalEnumerator_1_MoveNext_m24BE07B5A3B33ED472A32850008049DF0026E946_gshared)(__this, method);
 }
-// System.Void System.InvalidOperationException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * __this, String_t* ___message0, const RuntimeMethod* method);
 // T System.Array/InternalEnumerator`1<OVR.OpenVR.VRBoneTransform_t>::get_Current()
 inline VRBoneTransform_t_t0D2FE711C1A8272745264365004561C45ED501B3  InternalEnumerator_1_get_Current_mD2A0FEF604EFCCBEBE9289B20CEBE73EEC56C946 (InternalEnumerator_1_t91FD52D4EAFF1CEE756892B4963989D4E0F84A7D * __this, const RuntimeMethod* method)
 {
@@ -25775,6 +25935,177 @@ inline void Enumerator__ctor_m79061C01C6BF490684B011484E28D3FA3A98D3CF (Enumerat
 {
 	((  void (*) (Enumerator_tB72A18D32AC797055EC54AB2D51E4D924267BDE9 *, Dictionary_2_t68FA25B39EC8179DDB6C36003288B86442B82ECB *, const RuntimeMethod*))Enumerator__ctor_m79061C01C6BF490684B011484E28D3FA3A98D3CF_gshared)(__this, ___dictionary0, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::.ctor(System.Array)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, RuntimeArray * ___array0, const RuntimeMethod* method)
+{
+	{
+		RuntimeArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11_AdjustorThunk (RuntimeObject * __this, RuntimeArray * ___array0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	InternalEnumerator_1__ctor_m7F2F1E2107288C6C8C0AD8279BEA8CC98856EB11(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	InternalEnumerator_1_Dispose_m9143CED8B16DDC25913EEAAEA8F878A2956190C1(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		RuntimeArray * L_1 = (RuntimeArray *)__this->get_array_0();
+		NullCheck((RuntimeArray *)L_1);
+		int32_t L_2;
+		L_2 = Array_get_Length_m12B3E61F1BF9880AB252640D69269B49665C0A10((RuntimeArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001b:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		V_0 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_4, (int32_t)1));
+		int32_t L_5 = V_0;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		return (bool)((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_003c:
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C  bool InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = InternalEnumerator_1_MoveNext_mA6AFE762489D914BDCEAC45ED66A81AFC8FF563D(_thisAdjusted, method);
+	return _returnValue;
+}
+// T System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_1 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_1, (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7E7A07FECA0FF43839D67A9F7828EE56182CC9F6)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_RuntimeMethod_var)));
+	}
+
+IL_0015:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB * L_3 = (InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mC012CE552988309733C896F3FEA8249171E4402E(L_3, (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE8963BEA051E9F5E3F02A780ED8AB1AE95782FAF)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_RuntimeMethod_var)));
+	}
+
+IL_0029:
+	{
+		RuntimeArray * L_4 = (RuntimeArray *)__this->get_array_0();
+		RuntimeArray * L_5 = (RuntimeArray *)__this->get_array_0();
+		NullCheck((RuntimeArray *)L_5);
+		int32_t L_6;
+		L_6 = Array_get_Length_m12B3E61F1BF9880AB252640D69269B49665C0A10((RuntimeArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((RuntimeArray *)L_4);
+		VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  L_8;
+		L_8 = ((  VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  (*) (RuntimeArray *, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0)->methodPointer)((RuntimeArray *)L_4, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_6, (int32_t)1)), (int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		return (VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC )L_8;
+	}
+}
+IL2CPP_EXTERN_C  VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  _returnValue;
+	_returnValue = InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_mC5B4DC21012EF2916566D86855E9C09B15DE44C4(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<OVR.OpenVR.VRActiveActionSet_t>::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4_gshared (InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * __this, const RuntimeMethod* method)
+{
+	{
+		VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  L_0;
+		L_0 = InternalEnumerator_1_get_Current_m11731E1E0BB99C631F9A6C4ED3BE40736F0AC4F2((InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *)(InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC  L_1 = (VRActiveActionSet_t_t7374CA8BBF565E4F5CE4BF09A8D6E7D1A15B33FC )L_0;
+		RuntimeObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 2), &L_1);
+		return (RuntimeObject *)L_2;
+	}
+}
+IL2CPP_EXTERN_C  RuntimeObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t98E6C9A79136914976E4A3B6C77B7284CDF89735 *>(__this + _offset);
+	RuntimeObject * _returnValue;
+	_returnValue = InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m09728B473369F631DCE6D9141BE85103F7E3C3A4(_thisAdjusted, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

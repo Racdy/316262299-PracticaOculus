@@ -64668,7 +64668,7 @@ IL_02dc:
 		String_t* L_164;
 		L_164 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_163);
 		NullCheck(L_162);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_162, L_164);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_162, L_164);
 	}
 
 IL_030f:

@@ -41044,7 +41044,7 @@ IL_0091:
 		String_t* L_38;
 		L_38 = String_Concat_m27B9C3007C7DABFABCC3726B37A3BE08CB40C417(L_37, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_22, L_38);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_22, L_38);
 		// }
 		goto IL_0108;
 	}
@@ -41062,7 +41062,7 @@ IL_00e2:
 		String_t* L_46;
 		L_46 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteral44AA23E4F28D596F7B8277EE7C41A4F376951AAC, L_42, L_45, /*hidden argument*/NULL);
 		NullCheck(L_39);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_39, L_46);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_39, L_46);
 	}
 
 IL_0108:

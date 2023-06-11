@@ -25366,7 +25366,7 @@ IL_0160:
 		String_t* L_71;
 		L_71 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteralB0C862891FF4FD76E5E6C3BA0F2E5977233EF415, L_69, L_70, /*hidden argument*/NULL);
 		NullCheck(L_65);
-		VirtActionInvoker1< String_t* >::Invoke(64 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_65, L_71);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_65, L_71);
 		// }
 		return;
 	}
