@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
     public Transform posGun;
     public GameObject bullet;
     public float force;
+
+    private float timer;
+    public Text textTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +27,16 @@ public class player : MonoBehaviour
             rb.AddForce(posGun.transform.forward*force,ForceMode.Impulse);
         }
 
+        if (timer <= 0)
+        {
+            transform.position = new Vector3(0.129999995f, 1.40199995f, 5.75f);
+            timer = 60;
+        }
+        else
+        {
+            timer -= Time.deltaTime;
+            textTimer.text = "" + timer.ToString("f2");
+        }
     }
 
     void OnTriggerEnter(Collider collision)

@@ -22764,6 +22764,10 @@ public:
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___bullet_5;
 	// System.Single player::force
 	float ___force_6;
+	// System.Single player::timer
+	float ___timer_7;
+	// UnityEngine.UI.Text player::textTimer
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___textTimer_8;
 
 public:
 	inline static int32_t get_offset_of_posGun_4() { return static_cast<int32_t>(offsetof(player_tA80E0022C279849EE513BB6A4017ED62943ADC71, ___posGun_4)); }
@@ -22790,6 +22794,23 @@ public:
 	inline void set_force_6(float value)
 	{
 		___force_6 = value;
+	}
+
+	inline static int32_t get_offset_of_timer_7() { return static_cast<int32_t>(offsetof(player_tA80E0022C279849EE513BB6A4017ED62943ADC71, ___timer_7)); }
+	inline float get_timer_7() const { return ___timer_7; }
+	inline float* get_address_of_timer_7() { return &___timer_7; }
+	inline void set_timer_7(float value)
+	{
+		___timer_7 = value;
+	}
+
+	inline static int32_t get_offset_of_textTimer_8() { return static_cast<int32_t>(offsetof(player_tA80E0022C279849EE513BB6A4017ED62943ADC71, ___textTimer_8)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_textTimer_8() const { return ___textTimer_8; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_textTimer_8() { return &___textTimer_8; }
+	inline void set_textTimer_8(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	{
+		___textTimer_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___textTimer_8), (void*)value);
 	}
 };
 
@@ -33881,11 +33902,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6313[1] =
 {
 	Win_t7C57AA0C88FADFB099000E1C82AB229582930F6D::get_offset_of_AnnonWin_4(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6315[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6315[5] = 
 {
 	player_tA80E0022C279849EE513BB6A4017ED62943ADC71::get_offset_of_posGun_4(),
 	player_tA80E0022C279849EE513BB6A4017ED62943ADC71::get_offset_of_bullet_5(),
 	player_tA80E0022C279849EE513BB6A4017ED62943ADC71::get_offset_of_force_6(),
+	player_tA80E0022C279849EE513BB6A4017ED62943ADC71::get_offset_of_timer_7(),
+	player_tA80E0022C279849EE513BB6A4017ED62943ADC71::get_offset_of_textTimer_8(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6316[5] = 
 {

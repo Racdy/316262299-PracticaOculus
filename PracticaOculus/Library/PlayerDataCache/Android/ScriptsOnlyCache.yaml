@@ -3520,7 +3520,7 @@ ScriptsOnlyBuild:
     className: ObjectManipulator
   - hash:
       serializedVersion: 2
-      Hash: b6b36328ed328fc3e9a669dfb699d6bc
+      Hash: 62620dcf31b9e4f8c6a2da480a21d9a5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: player
